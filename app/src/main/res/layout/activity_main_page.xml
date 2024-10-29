@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="16dp">
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:background="@color/calendar_color"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+
+    <!-- 버튼 레이아웃 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/diaryButton"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/button_color"
+            android:padding="12dp"
+            android:text="일기 작성"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/dashboardButton"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_color"
+            android:padding="12dp"
+            android:text="결과 대시보드"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/btnEmotionTrend"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_color"
+            android:text="감정 추세 보기"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/diaryRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

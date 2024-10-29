@@ -1,0 +1,32 @@
+
+
+
+{
+  "project_info": {
+    "project_number": "352193781460",
+    "project_id": "emotion-classification-8a125",
+    "storage_bucket": "emotion-classification-8a125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352193781460:android:c271d161aca88953d66541",
+        "android_client_info": {
+          "package_name": "com.example.emotion_classification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyS1NoZRO8JeGs8idFr5u0Din-JqvgaTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
