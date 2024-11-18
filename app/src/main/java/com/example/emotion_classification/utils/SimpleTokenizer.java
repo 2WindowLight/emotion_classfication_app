@@ -23,7 +23,6 @@ public class SimpleTokenizer {
                 vocabMap.put(line.trim(), index++);
             }
         }
-        // 만약 `[UNK]`가 포함되지 않았다면 기본값으로 0을 할당
         vocabMap.putIfAbsent("[UNK]", 0);
         return vocabMap;
     }

@@ -1,17 +1,15 @@
-package com.example.emotion_classification;
+package com.example.emotion_classification.diary;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.firestore.CollectionReference;
+import com.example.emotion_classification.R;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QuerySnapshot;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -19,16 +17,13 @@ import org.tensorflow.lite.Interpreter;
 
 import okhttp3.*;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URLDecoder;
-import java.nio.MappedByteBuffer;
-import java.nio.channels.FileChannel;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MainActivity extends AppCompatActivity {
+public class MakeDiaryActivity extends AppCompatActivity {
 
     private EditText titleEditText, contentEditText;
     private Button saveButton, loadButton, analyzeButton;
@@ -45,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_make_diary);
 
         titleEditText = findViewById(R.id.etTitle);
         contentEditText = findViewById(R.id.etContent);
@@ -171,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
         if (!textToAnalyze.isEmpty()) {
             sendTextToServer(textToAnalyze);  // 서버로 텍스트 전송
         } else {
-            Toast.makeText(MainActivity.this, "분석할 텍스트를 입력해주세요.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MakeDiaryActivity.this, "분석할 텍스트를 입력해주세요.", Toast.LENGTH_SHORT).show();
         }
     }
 }

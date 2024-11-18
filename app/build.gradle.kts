@@ -57,7 +57,6 @@ dependencies {
     // TensorFlow Lite Support Library (optional)
     implementation("org.tensorflow:tensorflow-lite-support:0.3.1")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
-
     // MPAndroidChart 추가
     implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
 

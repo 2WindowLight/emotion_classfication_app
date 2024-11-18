@@ -10,6 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.emotion_classification.adapter.DiaryAdapter;
+import com.example.emotion_classification.diary.EditDiaryActivity;
+import com.example.emotion_classification.diary.MakeDiaryActivity;
+import com.example.emotion_classification.model.Diary;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -66,7 +70,7 @@ public class MainPageActivity extends AppCompatActivity implements DiaryAdapter.
         // 일기 작성 버튼 클릭 시 MainActivity로 이동, 선택된 날짜 전달
         diaryButton.setOnClickListener(v -> {
             if (selectedDate != null) {
-                Intent intent = new Intent(MainPageActivity.this, MainActivity.class);
+                Intent intent = new Intent(MainPageActivity.this, MakeDiaryActivity.class);
                 intent.putExtra("selectedDate", selectedDate); // 선택된 날짜 전달
                 startActivity(intent);
             } else {

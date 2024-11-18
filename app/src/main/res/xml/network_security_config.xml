@@ -4,4 +4,10 @@
         <domain-config cleartextTrafficPermitted="true">
             <domain includeSubdomains="true" cleartextTrafficPermitted="true">10.0.2.2</domain>
         </domain-config>
+        <domain-config cleartextTrafficPermitted="true">
+            <domain includeSubdomains="true" cleartextTrafficPermitted="true">192.168.0.42</domain>
+        </domain-config>
+        <domain-config cleartextTrafficPermitted="true">
+            <domain includeSubdomains="true" cleartextTrafficPermitted="true">192.168.0.35</domain>
+        </domain-config>
     </network-security-config>

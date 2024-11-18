@@ -1,4 +1,4 @@
-package com.example.emotion_classification;
+package com.example.emotion_classification.model;
 
 public class Diary {
     private String id; // 다이어리 ID

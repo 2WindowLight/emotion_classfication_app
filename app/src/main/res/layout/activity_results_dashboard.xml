@@ -1,71 +1,75 @@
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/background_color"
-    android:padding="24dp">
-
-    <!-- 페이지 제목 -->
-    <TextView
-        android:id="@+id/tvHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="결과 대시보드"
-        android:textSize="26sp"
-        android:textColor="@color/text_color_primary"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:paddingBottom="12dp"
-        android:fontFamily="sans-serif" />
-
-    <!-- 차트 영역 -->
-    <com.github.mikephil.charting.charts.PieChart
-        android:id="@+id/pieChartContainer"
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:layout_gravity="center"
-        android:elevation="4dp"
-        android:padding="10dp"
-        android:background="@drawable/chart_background" />
-
-    <!-- 불러오기 및 분석 버튼 -->
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:text="현재 나의 상태는?" />
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="20dp">
+        android:orientation="vertical"
+        android:background="@color/background_color"
+        android:padding="24dp">
 
-        <Button
-            android:id="@+id/loadButton"
+        <!-- 페이지 제목 -->
+        <TextView
+            android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="불러오기"
-            android:backgroundTint="@color/button_color"
-            android:textColor="@android:color/white"
+            android:text="결과 대시보드"
+            android:textSize="26sp"
+            android:textColor="@color/text_color_primary"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="12dp"
+            android:fontFamily="sans-serif" />
+
+        <!-- 차트 영역 -->
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChartContainer"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
             android:elevation="4dp"
-            android:layout_marginEnd="12dp" />
+            android:padding="10dp"
+            android:background="@drawable/chart_background" />
 
-        <Button
-            android:id="@+id/analyzeButton"
-            android:layout_width="wrap_content"
+        <!-- 불러오기 및 분석 버튼 -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="분석"
-            android:backgroundTint="@color/button_color"
-            android:textColor="@android:color/white"
-            android:elevation="4dp" />
-    </LinearLayout>
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="현재 나의 상태는?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/loadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="불러오기"
+                android:backgroundTint="@color/button_color"
+                android:textColor="@android:color/white"
+                android:elevation="4dp"
+                android:layout_marginEnd="12dp" />
+
+            <Button
+                android:id="@+id/analyzeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분석"
+                android:backgroundTint="@color/button_color"
+                android:textColor="@android:color/white"
+                android:elevation="4dp" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -73,41 +77,44 @@
             android:orientation="vertical"
             android:padding="16dp"
             android:background="#795548"> <!-- 테두리 배경색 설정 -->
-        <!-- 분석 결과 섹션 -->
-        <TextView
-            android:id="@+id/highestEmotionAdvice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="분석 결과가 여기에 표시됩니다"
-            android:textSize="18sp"
-            android:textColor="@color/white"
-            android:background="@color/button_color"
-            android:textStyle="bold"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:visibility="gone" />
 
-        <TextView
-            android:id="@+id/lowestEmotionAdvice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="추가 분석 결과가 여기에 표시됩니다"
-            android:textSize="18sp"
-            android:textColor="@color/white"
-            android:background="@color/button_color"
-            android:textStyle="bold"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:visibility="gone" />
+            <!-- 분석 결과 섹션 -->
+            <TextView
+                android:id="@+id/highestEmotionAdvice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분석 결과가 여기에 표시됩니다"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:background="@color/button_color"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lowestEmotionAdvice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추가 분석 결과가 여기에 표시됩니다"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:background="@color/button_color"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:visibility="gone" />
         </LinearLayout>
-    <TextView
-        android:id="@+id/diagnosisResultText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:padding="16dp"
-        android:textSize="16sp"
-        android:textColor="#000000"
-        android:visibility="gone"/> <!-- 초기에는 숨겨두기 -->
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/diagnosisResultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:visibility="gone"/> <!-- 초기에는 숨겨두기 -->
+
+    </LinearLayout>
+</ScrollView>
