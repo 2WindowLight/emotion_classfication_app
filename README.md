@@ -65,6 +65,14 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/>
   <!-- SSH -->
   <img src="https://img.shields.io/badge/SSH-000000?style=flat&logo=SSH&logoColor=white"/>
+  <!-- Firebase Authentication -->
+  <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=Firebase&logoColor=white" alt="Firebase Auth" />
+  <!-- Cloud Firestore -->
+  <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat&logo=Firebase&logoColor=white" alt="Firestore" />
+  <!-- Firebase Realtime Database -->
+  <img src="https://img.shields.io/badge/Realtime_DB-FFCA28?style=flat&logo=Firebase&logoColor=white" alt="Firebase Realtime DB" />
+  <!-- Firebase Storage -->
+  <img src="https://img.shields.io/badge/Storage-FFCA28?style=flat&logo=Firebase&logoColor=white" alt="Firebase Storage" />
 </div>
 
 </div>
