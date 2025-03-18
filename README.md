@@ -37,7 +37,7 @@
   <img src="https://img.shields.io/badge/MyBatis-BE3632?style=flat&logo=MyBatis&logoColor=white"/>
 </div>
 <br/>
-### 모바일
+모바일
 <div>
   <!-- Kotlin -->
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=Kotlin&logoColor=white"/>
