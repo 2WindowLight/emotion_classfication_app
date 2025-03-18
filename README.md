@@ -1,4 +1,4 @@
-<div align="center">
+
 
   <!-- markdownlint-disable-next-line -->
   # emotion_classfication_app
