@@ -1,3 +1,4 @@
+<div align="center">
 
 
   <!-- markdownlint-disable-next-line -->
@@ -232,6 +233,7 @@ BERT 모델을 5개의 에포크 동안 학습한 결과, **학습 정확도**�
 
 #### 대시보드 분석 결과
 사용자 감정 상태를 원형 차트로 시각화한 예시. 원형 차트는 사용자가 기록한 감정 중 어느 감정이 가장 빈번하게 나타났는지를 비율로 보여준다. 이를 통해 사용자는 자신의 주요 감정 상태를 한눈에 파악
+
 <img width="191" alt="image" src="https://github.com/user-attachments/assets/8a6bd80a-5924-42b7-a054-13c0dcb319ba" />
 
 ---
@@ -241,4 +243,4 @@ BERT 모델을 5개의 에포크 동안 학습한 결과, **학습 정확도**�
 
 <img width="184" alt="image" src="https://github.com/user-attachments/assets/75cbc702-09cb-411f-b175-edd8a7a2d7c1" />
 
-
+</div>
