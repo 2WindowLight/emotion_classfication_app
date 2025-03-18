@@ -80,7 +80,11 @@
 ## 사용된 데이터셋
 - [Emotion_classification.csv](https://github.com/2WindowLight/app-that-analyzes-my-emotions-and-improves-team-cooperation/blob/main/dataSet/Emotion_classification.csv)
 
-## 모델 생성 스크립트
+## 모델 생성 스크립트 (본 모델 생성 과정은 현재 결과의 달리 추가 파인 튜닝 이전으로 즉, 개선 전의 스크립트로 결과가 다를 수 있음)
+본 개발자는 해당 모델 학습 과정을 MacBook M3 pro 로 진행하였으며, 
+파인튜닝 미세 조정 및 데이터 클래스 분류 추가 작업 후의 학습은 GPU: RTX4070ti SUPER CPU: AMD 라이젠7-5세대 7800X3D RAM: 32GB 환경에서 진행하였음
+모델 개선 전 스펙: MacBook M3 pro
+모델 개선 후 스펙: GPU: RTX4070ti SUPER CPU: AMD 라이젠7-5세대 7800X3D RAM: 32GB
 - [analyzes emotions.ipynb](https://github.com/2WindowLight/app-that-analyzes-my-emotions-and-improves-team-cooperation/blob/main/Bert_model/analyzes%20emotions.ipynb)
 
 ---
