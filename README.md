@@ -25,32 +25,41 @@
 
 ### 백엔드
 <div>
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
+  <!-- Flask -->
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=Flask&logoColor=white"/>
+  <!-- Firebase -->
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
   <!-- Java -->
   <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white"/>
-  <!-- Spring -->
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white"/>
-  <!-- Spring Boot -->
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
-  <!-- Spring MVC -->
-  <img src="https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat&logo=Spring&logoColor=white"/>
-  <!-- Spring Test -->
-  <img src="https://img.shields.io/badge/Spring%20Test-6DB33F?style=flat&logo=Spring&logoColor=white"/>
-  <!-- JUnit -->
-  <img src="https://img.shields.io/badge/JUnit-25A162?style=flat&logo=JUnit5&logoColor=white"/>
-  <!-- Maven -->
-  <img src="https://img.shields.io/badge/Maven-C71A36?style=flat&logo=ApacheMaven&logoColor=white"/>
   <!-- MyBatis -->
   <img src="https://img.shields.io/badge/MyBatis-BE3632?style=flat&logo=MyBatis&logoColor=white"/>
 </div>
+<br/>
+### 모바일
+<div>
+  <!-- Kotlin -->
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=Kotlin&logoColor=white"/>
+  <!-- Android Studio -->
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white"/>
+</div>
+
+### 데이터 분석 / 머신러닝
+<div>
+  <!-- Spyder (IDE) -->
+  <img src="https://img.shields.io/badge/Spyder-FF0000?style=flat&logo=spyder%20ide&logoColor=white"/>
+  <!-- Jupyter Notebook -->
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=Jupyter&logoColor=white"/>
+  <!-- Google BERT -->
+  <img src="https://img.shields.io/badge/Google%20BERT-4285F4?style=flat&logo=google&logoColor=white"/>
+</div>
+
 
 <br/>
 
 ### 인프라
 <div>
-  <!-- H2 Database -->
-  <img src="https://img.shields.io/badge/H2-004D99?style=flat&logo=H2&logoColor=white"/>
-  <!-- MariaDB -->
-  <img src="https://img.shields.io/badge/MariaDB-01529E?style=flat&logo=MariaDB&logoColor=white"/>
   <!-- MySQL -->
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/>
   <!-- Git -->
