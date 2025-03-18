@@ -5,7 +5,59 @@
 
   BERT 모델을 활용한 우울증 관리 및 감정 분석 어플리케이션
 
-  
+  ## 기술 스택
+
+### 프론트엔드
+<div>
+  <!-- HTML -->
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=HTML5&logoColor=white"/>
+  <!-- CSS -->
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white"/>
+  <!-- JavaScript -->
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
+  <!-- Vue.js -->
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=Vue.js&logoColor=white"/>
+  <!-- Bootstrap -->
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white"/>
+</div>
+
+<br/>
+
+### 백엔드
+<div>
+  <!-- Java -->
+  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white"/>
+  <!-- Spring -->
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white"/>
+  <!-- Spring Boot -->
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
+  <!-- Spring MVC -->
+  <img src="https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat&logo=Spring&logoColor=white"/>
+  <!-- Spring Test -->
+  <img src="https://img.shields.io/badge/Spring%20Test-6DB33F?style=flat&logo=Spring&logoColor=white"/>
+  <!-- JUnit -->
+  <img src="https://img.shields.io/badge/JUnit-25A162?style=flat&logo=JUnit5&logoColor=white"/>
+  <!-- Maven -->
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=flat&logo=ApacheMaven&logoColor=white"/>
+  <!-- MyBatis -->
+  <img src="https://img.shields.io/badge/MyBatis-BE3632?style=flat&logo=MyBatis&logoColor=white"/>
+</div>
+
+<br/>
+
+### 인프라
+<div>
+  <!-- H2 Database -->
+  <img src="https://img.shields.io/badge/H2-004D99?style=flat&logo=H2&logoColor=white"/>
+  <!-- MariaDB -->
+  <img src="https://img.shields.io/badge/MariaDB-01529E?style=flat&logo=MariaDB&logoColor=white"/>
+  <!-- MySQL -->
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/>
+  <!-- Git -->
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/>
+  <!-- SSH -->
+  <img src="https://img.shields.io/badge/SSH-000000?style=flat&logo=SSH&logoColor=white"/>
+</div>
 
 사용된 데이터셋:
 모델 생성 스크립트:
