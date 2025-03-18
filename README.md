@@ -10,12 +10,15 @@
 
 ### 프론트엔드
 <div>
+    ### 모바일(안드로이드)
   <!-- CSS -->
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white"/>
-  <!-- JavaScript -->
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
-  <!-- Bootstrap -->
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white"/>
+
+  <!-- XML (레이아웃) -->
+  <img src="https://img.shields.io/badge/XML-EBB8C3?style=flat&logo=files&logoColor=white" alt="XML Layout" />
+  
+  <!-- Jetpack Compose -->
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=android&logoColor=white" alt="Jetpack Compose" />
 </div>
 
 <br/>
