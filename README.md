@@ -83,6 +83,7 @@
 파인튜닝 미세 조정 및 데이터 클래스 분류 추가 작업 후의 학습은 GPU: RTX4070ti SUPER CPU: AMD 라이젠7-5세대 7800X3D RAM: 32GB 환경에서 진행하였음
 
 모델 개선 전 스펙: MacBook M3 pro
+
 모델 개선 후 스펙: GPU: RTX4070ti SUPER CPU: AMD 라이젠7-5세대 7800X3D RAM: 32GB
 - [analyzes emotions.ipynb](https://github.com/2WindowLight/app-that-analyzes-my-emotions-and-improves-team-cooperation/blob/main/Bert_model/analyzes%20emotions.ipynb)
 
