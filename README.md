@@ -69,10 +69,10 @@
   <img src="https://img.shields.io/badge/SSH-000000?style=flat&logo=SSH&logoColor=white"/>
 </div>
 
-<!-- markdownlint-disable-next-line -->
-# Emotion Classification App
+</div>
 
-BERT 모델을 활용한 우울증 관리 및 감정 분석 어플리케이션
+
+
 
 
 ---
@@ -243,4 +243,4 @@ BERT 모델을 5개의 에포크 동안 학습한 결과, **학습 정확도**�
 
 <img width="184" alt="image" src="https://github.com/user-attachments/assets/75cbc702-09cb-411f-b175-edd8a7a2d7c1" />
 
-</div>
+
